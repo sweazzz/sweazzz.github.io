@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Matteo Pitaval | BTS CIEL</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header .titre {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .formation-item, .experience-item {
+            margin-bottom: 20px;
+            padding-left: 20px;
+            border-left: 3px solid #3498db;
+        }
+        
+        .formation-item h3, .experience-item h3 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .formation-item .details, .experience-item .details {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        
+        .competence-item {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .competence-nom {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .competence-niveau {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        @media print {
+            body {
+                background-color: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container my-4">
+    <header class="header">
+        <h1>Matteo PITAVAL</h1>
+        <div class="titre">Etudiant BTS CIEL</div>
+
+        <div class="row text-center g-2">
+            <div class="col-12 col-md-4">📱 06 07 08 09 10</div>
+            <div class="col-12 col-md-4">📧 matteop@email.com</div>
+            <div class="col-12 col-md-4">🏠 Paris</div>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>Formation</h2>
+
+        <div class="formation-item">
+            <h3>Irup</h3>
+            <div class="details">BTS CIEL • 2025-Présent</div>
+        </div>
+
+        <div class="formation-item">
+            <h3>Lycée Le Marais Sainte Thérèse</h3>
+            <div class="details">Terminal Bac Pro Systèmes numériques • 2022-2025</div>
+        </div>
+
+        <div class="formation-item">
+            <h3>Collège Notre Dame Des Collines</h3>
+            <div class="details">Diplôme : Brevet des collèges • 2019-2022</div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Expérience Professionnelle</h2>
+
+        <div class="experience-item">
+            <h3>Technicien de proximité</h3>
+            <div class="details">Clinique du Parc • Septembre 2025 - Présent</div>
+            <p>Gestion de tickets</p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Stagiaire en Réparation et Maintenance Informatique</h3>
+            <div class="details">Solution Micro • 20 février - 10 mars 2023</div>
+            <p>Maintenance et configuration d'ordinateur</p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Stagiaire en Maintenance de téléphone et d'ordinateur</h3>
+            <div class="details">GSM Store • 5 au 23 mai 2023</div>
+            <p>Maintenance et configuration d'ordinateur et de téléphone</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Compétences</h2>
+
+        <div class="row g-3">
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="competence-item h-100">
+                    <div class="competence-nom">Langage C</div>
+                    <div class="competence-niveau">Débutant</div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="competence-item h-100">
+                    <div class="competence-nom">Hardware</div>
+                    <div class="competence-niveau">Avancé</div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="competence-item h-100">
+                    <div class="competence-nom">Git</div>
+                    <div class="competence-niveau">Débutant</div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="competence-item h-100">
+                    <div class="competence-nom">Linux</div>
+                    <div class="competence-niveau">Débutant</div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="competence-item h-100">
+                    <div class="competence-nom">Cisco</div>
+                    <div class="competence-niveau">Avancé</div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="competence-item h-100">
+                    <div class="competence-nom">Windows</div>
+                    <div class="competence-niveau">Intermédiaire</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Popper -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
